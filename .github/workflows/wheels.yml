@@ -7,6 +7,7 @@ permissions:
   packages: write # This is required to push images to Github packages
 
 jobs:
+  release:
     runs-on: ubuntu-latest
     permissions:
       contents: write  # IMPORTANT: mandatory for making GitHub Releases
