@@ -7,8 +7,7 @@ permissions:
   packages: write # This is required to push images to Github packages
 
 jobs:
-    needs:
-    runs-on: ubuntu-latest #buildjet-2vcpu-ubuntu-2204
+    runs-on: ubuntu-latest
     permissions:
       contents: write  # IMPORTANT: mandatory for making GitHub Releases
       id-token: write  # IMPORTANT: mandatory for sigstore
